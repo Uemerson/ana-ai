@@ -17,6 +17,12 @@ Then run the following command to start the training process:
 python -m spacy train config.cfg --output ./output --paths.train ./train.spacy --paths.dev ./dev.spacy
 ```
 
+To test the trained model, run the following command:
+
+```bash
+python src/main.py
+```
+
 # References
 
 - [How to Build a Named Entity Recognition Pipeline with spaCy and Transformers](https://agentbus.sh/posts/how-to-build-a-named-entity-recognition-pipeline/)
